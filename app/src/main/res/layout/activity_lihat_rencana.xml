@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatRencana"
+    >
+
+    <TextView
+        android:id="@+id/nama_rencan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rakit Baru"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/nama_rencan"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama_rencan">
+    <LinearLayout
+        android:layout_below="@+id/nama_rencan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:paddingBottom="20dp"
+        android:background="@color/transparan"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/cpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CPU"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/pilihCpu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cpu"
+            android:textSize="15dp"
+            android:textAppearance="@style/lihat"/>
+            />
+
+
+        <TextView
+            android:id="@+id/motherboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:text="Motherboard"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/pilihMobo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="motherboard"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/fan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fan"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pilihFan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fan"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+
+
+        <TextView
+            android:id="@+id/ram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ram"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/pilihRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ram"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/hardisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hardisk"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pilihHardisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hardisk"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/ssd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ssd"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/pilihSsd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ssd"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/cd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cd"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/pilihCd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cd"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/vga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vga"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pilihVga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="vga"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/psu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Psu"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/pilihPsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="psu"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/casing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casing"
+            android:paddingTop="5dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/pilihCasing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="casing"
+            android:textAppearance="@style/lihat"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="51dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_chevron_left_black_24dp"
+        android:layout_marginTop="0dp" />
+</RelativeLayout>

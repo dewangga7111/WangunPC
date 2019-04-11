@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aldidewangga.wangun_pc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".BuatRencana" />
+        <activity android:name=".LihatRencana" />
+        <activity android:name=".UbahRencana" />
+        <activity android:name=".fragmentCPU" />
+        <activity android:name=".fragmentMobo" />
+        <activity android:name=".fragmentFan" />
+        <activity android:name=".fragmentRam" />
+        <activity android:name=".fragmentHardisk" />
+        <activity android:name=".fragmentSsd" />
+        <activity android:name=".fragmentCd" />
+        <activity android:name=".fragmentVga" />
+        <activity android:name=".fragmentPsu" />
+        <activity android:name=".fragmentCasing" />
+    </application>
+
+</manifest>
